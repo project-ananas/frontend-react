@@ -3,6 +3,7 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.css";
 import Nav from "./Components/Nav";
 import History from "./Components/History";
+import Home from "./Components/Home";
 import About from "./Components/About";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
