@@ -1,11 +1,11 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+const History = () => 'History';
+
 class History extends React.Component {
   constructor(props: any) {
     super(props);
-
-    var History = require('/history');
 
     this.state = {
       History: [],
