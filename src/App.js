@@ -2,7 +2,6 @@ import React from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.css";
 import Nav from "./Components/Nav";
-import Home from "./Components/Map";
 import History from "./Components/History";
 import About from "./Components/About";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
