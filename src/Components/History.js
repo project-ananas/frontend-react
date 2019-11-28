@@ -5,6 +5,8 @@ class History extends React.Component {
   constructor(props: any) {
     super(props);
 
+    var History = require('/history');
+
     this.state = {
       History: [],
       isLoading: false
@@ -14,7 +16,7 @@ class History extends React.Component {
   componentDidMount() {
     this.setState({ isLoading: false });
 
-    fetch("10.10.101.23/locations/")
+    fetch("LINK TO BACKEND API")
       .then(Response => Response.json())
       .then(data => this.setState({ History: data, isLoading: false }));
   }
