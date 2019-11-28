@@ -14,7 +14,7 @@ class History extends React.Component {
   componentDidMount() {
     this.setState({ isLoading: false });
 
-    fetch("LINK TO BACKEND API")
+    fetch("10.10.101.23/locations/")
       .then(Response => Response.json())
       .then(data => this.setState({ History: data, isLoading: false }));
   }
