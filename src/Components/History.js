@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-const History = () => 'History';
+var React = require('react');
 
 class History extends React.Component {
   constructor(props: any) {
